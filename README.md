@@ -26,13 +26,13 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 ### Sanity Check
 - Using same option position described above and number of paths N = 100,000.
 	#### Mean Return at Various GBM Volatility Forecasts
-		| Implied Vol | Forecast Vol | Mean Return |
-		| ------------ | ------------ | ------------ |
-		| 59% | 200% |-235.17% |
-		| 59% | 70% | -22.80% |
-		| 59% | 59% | -4.03% |
-		| 59% | 50% | 10.95% |
-		| 59% | 20% | 59.43% |
+	| Implied Vol | Forecast Vol | Mean Return |
+	| ------------ | ------------ | ------------ |
+	| 59% | 200% |-235.17% |
+	| 59% | 70% | -22.80% |
+	| 59% | 59% | -4.03% |
+	| 59% | 50% | 10.95% |
+	| 59% | 20% | 59.43% |
 	#### Optimal Bet Size *f\** at Various GBM Volatility Forecasts
 	| Implied Vol | Forecast Vol | f\* |
 	| ------------ | ------------ | ------------ |
