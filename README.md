@@ -33,7 +33,7 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 | 59% | 59% | -4.03% |
 | 59% | 50% | 10.95% |
 | 59% | 20% | 59.43% |
-#### Optimal Bet Size *f\** at Various GBM Volatility Forecasts
+	#### Optimal Bet Size *f\** at Various GBM Volatility Forecasts
 | Implied Vol | Forecast Vol | f\* |
 | ------------ | ------------ | ------------ |
 | 59% | 200% | 0.0% |
