@@ -23,7 +23,7 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 ![kelly dist](https://user-images.githubusercontent.com/74878922/205468217-8f9e5f3c-d9e3-4e3a-9fa2-ae497cc5334b.jpg)
 - Sampling distribution of *f\** with same parameters as above sampled n = 1000 times.
 
-### Sanity Check
+### More Results
 - Using same option position described above and number of paths N = 100,000.
 	#### Mean Return at Various GBM Volatility Forecasts
 	| Implied Vol | Forecast Vol | Mean Return |
