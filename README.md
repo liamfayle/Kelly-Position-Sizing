@@ -44,6 +44,4 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 	| 59% | 20% | 71.10% |
 
 -----
-### Problems
-- GBM gets its random element from a normal distribution which does not coincide with the negatively skewed leptokurtic distributions that are common in equities and equity indices.
-	- This could lead to overestimation of mean return which in turn would overestimate the optimal bet fraction f\*.
+
