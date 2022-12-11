@@ -34,6 +34,7 @@ class Sizing:
             paths[t] = paths[t-1] * np.exp((r - 0.5 * volatility ** 2) * dt + volatility * np.sqrt(dt) * rand)
         self.terminal_paths = paths[-1]
 
+        print(min(paths[-1]))
         if (returned):
             return paths[-1]
 
@@ -75,13 +76,11 @@ class Sizing:
         G = []
 
         end = False
-        for f in range(0, 100):
-            G.append(np.sum( (1/len(self.terminal_paths)) * np.log10(1 + W_i*(f/100)) ))
+        for f in range(0, 1000):
+            G.append(np.sum( (1/len(self.terminal_paths)) * np.log10(1 + W_i*(f/1000)) ))
             if np.isnan(G[f]):
                 G.pop()
                 break
-        return G.index(max(G))
+        return G.index(max(G)) / 1000
 
-        
-
-
+    
