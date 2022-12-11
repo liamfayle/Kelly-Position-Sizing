@@ -14,6 +14,7 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 4. Obtain expected growth rate *G* for a range of bet sizes *f*.
 5. Obtain *f\** where growth rate *G* is at its maximum, where *f\** represents the optimal bet size.
 
+-----
 ### Results
 ![kelly example](https://user-images.githubusercontent.com/74878922/205468183-e00490b8-f5a8-424b-884c-92b8de26e365.jpg)
 - Growth rate curve *G(f)* where *f\* ~= 14.5%*
@@ -41,3 +42,6 @@ Implementation of the "Kelly Criterion" (Maximizing Expected Value of Log Wealth
 	| 59% | 59% | 0.0% |
 	| 59% | 50% | 15.20% |
 	| 59% | 20% | 71.10% |
+
+-----
+
